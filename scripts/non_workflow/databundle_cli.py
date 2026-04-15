@@ -263,7 +263,7 @@ if __name__ == "__main__":
         retrieve_databundle(
             bundles,
             config_bundles,
-            hydrobasins_level,
+            # hydrobasins_level,
             rootpath=rootpath,
             disable_progress=disable_progress,
         )
