@@ -28,7 +28,7 @@ This part of documentation collects descriptive release notes to capture the mai
 
 **Minor Changes and bug-fixing**
 
-* Included critical step in the documentation to confirm Ts and Cs on Copernicus portal to allow for unrestricted use of API. [PR #1785](https://github.com/pypsa-meets-earth/pypsa-earth/pull/1785)
+* Included critical step in the documentation to confirm Terms and Conditions on Copernicus portal to allow for unrestricted use of API. [PR #1785](https://github.com/pypsa-meets-earth/pypsa-earth/pull/1785)
 
 * Update biomass transport cost for Australia [PR #1784](https://github.com/pypsa-meets-earth/pypsa-earth/pull/1784)
 
