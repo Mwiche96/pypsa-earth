@@ -281,6 +281,12 @@ if __name__ == "__main__":
                 f"Historical date requested but earth-osm version doesn't support target_date parameter. "
                 f"Downloading the latest OSM data instead."
             )
+            # Data will actually be latest, not historical: store it under "latest"
+            # rather than leaving it mislabeled under the YYYYMM historical folder
+            osm_subdir = "latest"
+            store_path_data = Path.joinpath(Path(BASE_DIR), "data", "osm", osm_subdir)
+            save_args["data_dir"] = store_path_data
+            logger.info(f"OSM data will be stored in: {store_path_data}")
     elif source == "latest":
         logger.info("Downloading latest OSM data")
     elif source == "custom":
